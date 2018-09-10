@@ -5,8 +5,7 @@ public class ClassATest {
 
     @Test
     public void testHelloWorld() {
-        String result = ClassA.helloWorld();
-        Assert.assertEquals(result, "Hello World");
+        Assert.assertEquals(ClassA.helloWorld(), "Hello World");
     }
 
     @Test
