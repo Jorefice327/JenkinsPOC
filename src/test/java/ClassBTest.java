@@ -12,6 +12,6 @@ public class ClassBTest {
     @Test
     public void testAddAndDivide()
     {
-        Assert.assertEquals(35, ClassB.addAndDivide(20, 50, 2));
+        Assert.assertEquals(35, ClassB.addAndDivide(20, 50, 2), 0.01);
     }
 }
