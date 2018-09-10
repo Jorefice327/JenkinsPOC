@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe5ab828-a887-4826-8a90-cffaac947ac7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClassBTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClassATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassATest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ClassA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClassA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ClassATest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClassATest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,15 +44,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassATest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassATest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClassATest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#119#120#0" expanded="true" />
                 <element signature="e#177#178#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClassB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+              <folding>
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassBTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ClassBTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ClassA.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClassATest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClassB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClassBTest.java" />
       </list>
     </option>
   </component>
@@ -170,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ClassBTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -182,6 +214,40 @@
       <option name="MAIN_CLASS_NAME" value="ClassATest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ClassBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jenkinspoc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassBTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ClassBTest.addAndMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jenkinspoc" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassBTest" />
+      <option name="METHOD_NAME" value="addAndMultiply" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -229,8 +295,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ClassATest" />
+      <item itemvalue="JUnit.ClassBTest.addAndMultiply" />
+      <item itemvalue="JUnit.ClassBTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClassBTest" />
+        <item itemvalue="JUnit.ClassBTest.addAndMultiply" />
         <item itemvalue="JUnit.ClassATest" />
       </list>
     </recent_temporary>
@@ -245,7 +318,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536604198703</updated>
-      <workItem from="1536604204274" duration="3086000" />
+      <workItem from="1536604204274" duration="3848000" />
     </task>
     <task id="LOCAL-00001" summary="Added maven print statement">
       <created>1536610362183</created>
@@ -275,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536611181793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Pipeline test">
+      <created>1536612502710</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536612502710</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -285,12 +365,22 @@
     <history-entry file="ClassATest - 2018.09.10 at 12h 35m 50s.xml">
       <configuration name="ClassATest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClassBTest_addAndMultiply - 2018.09.10 at 14h 59m 45s.xml">
+      <configuration name="ClassBTest.addAndMultiply" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassBTest_addAndMultiply - 2018.09.10 at 15h 00m 11s.xml">
+      <configuration name="ClassBTest.addAndMultiply" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassBTest - 2018.09.10 at 15h 00m 37s.xml">
+      <configuration name="ClassBTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3086000" />
+    <option name="totallyTimeSpent" value="3848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1009" y="0" width="1558" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -301,8 +391,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32972136" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32972136" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972136" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -333,13 +423,25 @@
     <MESSAGE value="Fixed test case" />
     <MESSAGE value="Changed test case" />
     <MESSAGE value="Remove test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove test case" />
+    <MESSAGE value="Pipeline test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pipeline test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClassB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -359,11 +461,21 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ClassATest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#119#120#0" expanded="true" />
             <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClassBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
