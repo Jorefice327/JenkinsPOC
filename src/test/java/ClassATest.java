@@ -15,4 +15,11 @@ public class ClassATest {
         Assert.assertEquals(8, ClassA.add(3, 5));
         Assert.assertEquals(123, ClassA.add(100, 23));
     }
+
+    @Test
+    public void testSubtract()
+    {
+        Assert.assertEquals(10, ClassA.subtract(15, 5));
+        Assert.assertEquals(100, ClassA.subtract(1000, 900));
+    }
 }
