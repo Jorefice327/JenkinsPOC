@@ -1,3 +1,5 @@
+package main.java;
+
 public class ClassB {
 
     public static int addAndMultiply(int a, int b, int c)
