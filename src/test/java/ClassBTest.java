@@ -16,6 +16,6 @@ public class ClassBTest {
     public void testAddAndDivide()
     {
         Assert.assertEquals(35, ClassB.addAndDivide(20, 50, 2), 0.01);
-        Assert.assertEquals(52, ClassB.addAndDivide(20, 50, 20), 0.1);
+        Assert.assertEquals(3.5, ClassB.addAndDivide(20, 50, 20), 0.1);
     }
 }
