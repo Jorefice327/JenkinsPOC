@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe5ab828-a887-4826-8a90-cffaac947ac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ClassA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassA.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="633">
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassA.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClassA.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ClassA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -89,6 +89,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>org.apache.maven.plugins</find>
+      <find>goal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,10 +101,10 @@
         <option value="$PROJECT_DIR$/src/test/main/java/ClassATestasd.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClassATest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClassB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ClassA.java" />
         <option value="$PROJECT_DIR$/pmd-rules.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ClassBTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ClassA.java" />
       </list>
     </option>
   </component>
@@ -367,7 +368,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536604198703</updated>
       <workItem from="1536604204274" duration="3848000" />
-      <workItem from="1536682763841" duration="11045000" />
+      <workItem from="1536682763841" duration="11682000" />
     </task>
     <task id="LOCAL-00001" summary="Added maven print statement">
       <created>1536610362183</created>
@@ -523,7 +524,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536698609194</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Complete build on pmd fail">
+      <created>1536769214908</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1536769214908</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Import arraylist">
+      <created>1536769627285</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1536769627285</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -544,7 +559,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14893000" />
+    <option name="totallyTimeSpent" value="15530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1934" height="1567" extended-state="0" />
@@ -607,7 +622,9 @@
     <MESSAGE value="Added links" />
     <MESSAGE value="?" />
     <MESSAGE value="Update ruleset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update ruleset" />
+    <MESSAGE value="Complete build on pmd fail" />
+    <MESSAGE value="Import arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Import arraylist" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -661,17 +678,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClassA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
           <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClassA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>

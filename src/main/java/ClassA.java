@@ -1,11 +1,9 @@
 package main.java;
-import java.util.ArrayList;
 
 public class ClassA {
 
     public static void main(String[] args)
     {
-        int x = 3;
         System.out.println(helloWorld());
         System.out.println("Using Maven now");
     }
