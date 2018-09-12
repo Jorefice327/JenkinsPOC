@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fe5ab828-a887-4826-8a90-cffaac947ac7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClassATest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassATest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="12" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="759">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -37,8 +37,8 @@
       <file leaf-file-name="ClassA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ClassA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="46">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassATest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClassATest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClassATest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="207">
+              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,13 +108,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/main/java/ClassATestasd.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ClassATest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClassB.java" />
         <option value="$PROJECT_DIR$/pmd-rules.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ClassBTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ClassA.java" />
         <option value="$PROJECT_DIR$/push.bat" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ClassA.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClassATest.java" />
       </list>
     </option>
   </component>
@@ -378,7 +378,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536604198703</updated>
       <workItem from="1536604204274" duration="3848000" />
-      <workItem from="1536682763841" duration="13790000" />
+      <workItem from="1536682763841" duration="14222000" />
     </task>
     <task id="LOCAL-00001" summary="Added maven print statement">
       <created>1536610362183</created>
@@ -569,7 +569,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536778953573</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added export to reporting">
+      <created>1536779330858</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1536779330858</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Remove main from ClassA">
+      <created>1536779549009</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1536779549009</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,7 +604,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17638000" />
+    <option name="totallyTimeSpent" value="18070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1934" height="1567" extended-state="0" />
@@ -633,8 +647,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added maven print statement" />
-    <MESSAGE value="Fixed test case" />
     <MESSAGE value="Changed test case" />
     <MESSAGE value="Remove test case" />
     <MESSAGE value="Pipeline test" />
@@ -658,7 +670,9 @@
     <MESSAGE value="Fix PMD violations" />
     <MESSAGE value="added bat file" />
     <MESSAGE value="Add code coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add code coverage" />
+    <MESSAGE value="Added export to reporting" />
+    <MESSAGE value="Remove main from ClassA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove main from ClassA" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -685,16 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClassATest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ClassB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -712,10 +716,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ClassA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -726,10 +737,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClassATest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="12" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
