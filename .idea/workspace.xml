@@ -20,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
-              <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="12" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -378,7 +378,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536604198703</updated>
       <workItem from="1536604204274" duration="3848000" />
-      <workItem from="1536682763841" duration="13414000" />
+      <workItem from="1536682763841" duration="13790000" />
     </task>
     <task id="LOCAL-00001" summary="Added maven print statement">
       <created>1536610362183</created>
@@ -562,7 +562,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536770667009</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add code coverage">
+      <created>1536778953573</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1536778953573</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -583,10 +590,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17262000" />
+    <option name="totallyTimeSpent" value="17638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="0" width="1934" height="1567" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -649,7 +657,8 @@
     <MESSAGE value="Import arraylist" />
     <MESSAGE value="Fix PMD violations" />
     <MESSAGE value="added bat file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bat file" />
+    <MESSAGE value="Add code coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add code coverage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -720,7 +729,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="12" selection-end-line="48" selection-end-column="21" />
         </state>
       </provider>
     </entry>
