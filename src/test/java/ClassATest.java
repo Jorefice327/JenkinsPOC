@@ -24,5 +24,6 @@ public class ClassATest {
     {
         Assert.assertEquals(10, ClassA.subtract(15, 5));
         Assert.assertEquals(100, ClassA.subtract(1000, 900));
+        Assert.assertEquals(1, ClassA.subtract(2, 1));
     }
 }
